@@ -1,0 +1,96 @@
+.container{
+    font-size: 1rem;
+    padding-inline: 2rem;
+    padding-block: 4rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2; 
+    color: #364c9f; 
+
+}
+.title{
+    font-size: 1.5rem; 
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.inline{
+    display: flex;
+    flex-direction: row;
+
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+#dogo1{
+    height: 10rem;
+   
+}
+
+#descript1{
+    padding-inline: 1rem;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+     
+}
+
+
+.importantInfo{
+    text-align:left; 
+}
+
+.dogInfoContainer img{
+    height: 20rem;
+
+}
+
+.dogInfoContainer{
+    padding-inline: 1rem; 
+    text-align: left; 
+    margin-block: 4rem; 
+    background-color: rgb(255, 255, 255); 
+    border-radius: 1rem;
+ 
+ 
+    justify-content: center;
+    align-items: center;
+   
+}
+
+ 
+
+.dogInfoContainer .inline{
+  
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 1rem;
+    
+}
+
+.outerContainer{
+    
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 10rem;
+}
+
+.basics, .compatability, .info{
+   margin-inline: 2rem;
+}
+
+.inline span{
+    color: #1b2547; 
+}
+
+#ourDogsTitle{
+    margin-top: 10rem; 
+}

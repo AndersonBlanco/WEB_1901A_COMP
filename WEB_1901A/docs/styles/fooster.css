@@ -1,0 +1,117 @@
+
+body{
+    color: #364c9f; 
+  
+
+}
+
+.globeContainer{
+    padding-inline: 5rem;
+    text-align:center;
+    align-items: center;
+    justify-content: center; 
+  
+}
+.title_{
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.title_ p{
+    font-size: 1rem;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+        
+     
+        text-align:center;
+        align-items: center;
+        justify-content: center;
+}
+
+ 
+
+.inline{
+    display: flex;
+    flex-direction: row;
+ 
+      
+}
+.inline *{
+    margin-inline: 5rem;
+}
+ 
+
+
+
+.column *{
+    margin-block: 0.1rem;
+}
+
+
+
+.stylishBlock{
+    background-color: #fc7b1a;
+    padding: 1rem;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+
+}
+
+.stylishBlock p{
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+
+button{
+    outline: none;
+    border: none;
+    color: #364c9f;
+    background-color: white;
+    font-size: 1rem;
+    padding: 1rem 2rem;
+    margin-top: 10%;
+    cursor: pointer;
+}
+
+.transparentBlock{
+    background-color: rgba(0, 0, 0, 0.484);
+    background-blend-mode: overlay;
+    background-image: url('../imgs/family.webp'); 
+    height: 40rem;
+    width: 25rem;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-style: italic;
+    position: relative;
+    right: -14rem;
+}
+
+
+ 
+
+.readySaveLives{
+    font-size: 1rem;
+  margin-top: 10rem;
+  font-size: 1.5rem;
+}
+
+.readySaveLives span{
+    font-size: 1.75rem;
+
+}

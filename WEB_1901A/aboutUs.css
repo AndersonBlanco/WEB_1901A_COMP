@@ -1,0 +1,17 @@
+.sec1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #fc7b1a;
+}
+.sec1ContentHolder{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.gridItem{
+    height: 90px;
+    width: auto;
+    background-color: #d3baa7;
+}
